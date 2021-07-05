@@ -7,4 +7,6 @@ export const BillboardWrapper = styled.div`
   flex-direction: row;
   background-color: #F7C600;
   padding: 7px;
+  justify-content: center;
+  box-sizing: border-box;
 `
