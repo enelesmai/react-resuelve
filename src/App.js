@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Movie from './components/movie/index';
+import Billboard from './components/billboard/index';
 
 function App() {
   return (
     <div className="App">
-      <Movie></Movie>
+      <Billboard></Billboard>
     </div>
   );
 }

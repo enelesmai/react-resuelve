@@ -1,10 +1,14 @@
 import { MovieWrapper } from "./movieStyles";
+import { Poster } from "./movieStyles";
+import { Title } from "./movieStyles";
 
 function Movie() {
   return (
     <MovieWrapper>
-      <div></div>
-      <h3>Viaje de Chihiro</h3>
+      <Poster></Poster>
+      <Title>
+        <h3>Viaje de Chihiro</h3>
+      </Title>
     </MovieWrapper>
   );
 }
